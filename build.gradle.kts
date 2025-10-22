@@ -13,6 +13,9 @@ repositories {
 }
 
 dependencies {
+    implementation("org.apache.kafka:kafka-streams:latest.release")
+    implementation("org.apache.kafka:kafka-clients:latest.release")
+    testImplementation("org.apache.kafka:kafka-streams-test-utils:latest.release")
     testImplementation(kotlin("test"))
 }
 
